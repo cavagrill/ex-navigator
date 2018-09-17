@@ -20,8 +20,8 @@ import Layout from './Layout';
 import { BackIcon } from './ExNavigatorIcons';
 
 import type { Navigator } from 'react-native-deprecated-custom-components';
-import type * as ExNavigator from './ExNavigator';
-import type * as ExRoute from './ExRoute';
+import type { ExNavigator } from './ExNavigator';
+import type { ExRoute } from './ExRoute';
 
 type BarStyles = {
   titleStyle?: any,

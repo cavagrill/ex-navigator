@@ -1,7 +1,7 @@
 'use strict';
 
 import { Component } from 'react';
-import type * as ExNavigator from './ExNavigator';
+import type { ExNavigator } from './ExNavigator';
 
 export type ExRoute = {
   getTitle?: (navigator: ExNavigator, index: number, state: Object) => ?string,
